@@ -6,5 +6,5 @@ compatibility_flags = ["nodejs_compat"]
 # دیتابیس کاربران - بعد از ساخت KV آیدی رو اینجا بذار
 [[kv_namespaces]]
 binding = "USERS"
-id = "PUT_YOUR_KV_ID_HERE"
-preview_id = "PUT_YOUR_KV_PREVIEW_ID_HERE"
+id = "5b4a486a915c45ecbd37345487ac0ded"
+preview_id = "5b4a486a915c45ecbd37345487ac0ded"
