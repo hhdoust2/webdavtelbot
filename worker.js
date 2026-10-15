@@ -252,3 +252,4 @@ async function getTelegramFileUrl(token, fileId) {
   const res = await fetch(`https://api.telegram.org/bot${token}/getFile?file_id=${fileId}`).then(r => r.json());
   return `https://api.telegram.org/file/bot${token}/${res.result.file_path}`;
 }
+
