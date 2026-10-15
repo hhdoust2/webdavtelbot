@@ -2,7 +2,7 @@ export default {
   async fetch(request, env, ctx) {
     if (request.method !== "POST") return new Response("WebDAV Multi Bot is Running ✅");
     const update = await request.json();
-    console.log("UPDATE:", JSON.stringify(update));
+    console.log("UPDATE:", JSON.stringify(update)); 
 
     const msg = update.message;
     if (!msg) return new Response("OK");
